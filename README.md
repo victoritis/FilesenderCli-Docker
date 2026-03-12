@@ -1,4 +1,4 @@
-# FileSender CLI — Docker Wrapper
+# FileSender CLI — Docker Wrapper 
 
 A Dockerized wrapper around the [WEHI FileSenderCli](https://github.com/WEHI-ResearchComputing/FileSenderCli) Python client, providing a simple configuration-driven interface for uploading, downloading, and managing guest invitations on any [FileSender](https://filesender.org) instance.
 
@@ -173,3 +173,4 @@ python3.11 filesender-wehi--config.py invite
 ## License
 
 The bundled [FileSenderCli](https://github.com/WEHI-ResearchComputing/FileSenderCli) is licensed under BSD-3-Clause. See its source for details.
+
