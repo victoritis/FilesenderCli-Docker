@@ -1,0 +1,8 @@
+# Upload with recipient
+# Requires username + apikey in filesender.ini
+#
+# --recipients: recipient email address(es), comma-separated
+# Files: paths relative to the working directory
+
+--recipients recipient@example.com
+uploads/your_file

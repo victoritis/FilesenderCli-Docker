@@ -1,0 +1,25 @@
+# Uploaded files (keep the directory, ignore contents)
+uploads/*
+!uploads/.gitkeep
+
+# Downloaded files (keep the directory, ignore contents)
+downloads/*
+!downloads/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

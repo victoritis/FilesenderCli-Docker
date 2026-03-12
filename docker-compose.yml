@@ -1,0 +1,12 @@
+services:
+  filesender:
+    build: .
+    volumes:
+      # Credentials — edit this file to set base_url / username / apikey
+      - ./filesender.ini:/app/filesender.ini:ro
+      # Per-operation flags — edit the .flags files to set recipients, tokens, etc.
+      - ./config:/app/config:ro
+      # Files to upload — place your files here and reference them in .flags
+      - ./uploads:/app/uploads
+      # Output directory for downloads
+      - ./downloads:/app/downloads

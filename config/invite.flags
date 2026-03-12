@@ -1,0 +1,6 @@
+# Create an upload invitation for someone
+# Requires username + apikey in filesender.ini
+#
+# RECIPIENT: email of the person to invite
+
+recipient@example.com

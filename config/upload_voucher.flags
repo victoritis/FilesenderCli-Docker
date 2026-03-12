@@ -1,0 +1,11 @@
+# Upload using a guest invitation link (vid)
+# Does NOT require apikey — only the token from the link and the invited email
+#
+# --guest-token: the vid= value from the invitation URL
+#   e.g. https://filesender.example.com/?s=upload&vid=f7874954-9a4b-41ec-a69a-fb8f95481304
+#                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# --email: the email address that received the invitation
+
+--guest-token YOUR_GUEST_TOKEN_HERE
+--email guest@example.com
+uploads/your_file

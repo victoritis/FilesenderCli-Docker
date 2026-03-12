@@ -1,0 +1,10 @@
+# Download using a transfer token
+# Does NOT require apikey
+#
+# TOKEN: the token= value from the download URL (positional argument)
+#   e.g. https://filesender.example.com/?s=download&token=ff6d4cb4-c84a-4b46-91ab-f642effd9992
+#                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# --out-dir: output directory (relative to the working directory)
+
+YOUR_DOWNLOAD_TOKEN_HERE
+--out-dir downloads
